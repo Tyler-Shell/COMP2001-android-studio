@@ -23,12 +23,12 @@ class bookmanager : AppCompatActivity() {
         }
         room1_button = findViewById<Button>(R.id.room1)
         room1_button.setOnClickListener {
-            val intent = Intent(this, Room1::class.java)
+            val intent = Intent(this, Room1_manager::class.java)
             startActivity(intent)
         }
         room2_button = findViewById<Button>(R.id.room2)
         room2_button.setOnClickListener {
-            val intent = Intent(this, Room2::class.java)
+            val intent = Intent(this, room2_manager::class.java)
             startActivity(intent)
         }
     }

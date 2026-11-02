@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Comp2001Work">
         <activity
+            android:name=".account"
+            android:exported="false" />
+        <activity
             android:name=".room2_manager"
             android:exported="false" />
         <activity
