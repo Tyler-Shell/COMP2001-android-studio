@@ -12,6 +12,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Comp2001Work">
         <activity
+            android:name=".room2_manager"
+            android:exported="false" />
+        <activity
+            android:name=".Room1_manager"
+            android:exported="false" />
+        <activity
+            android:name=".request"
+            android:exported="false" />
+        <activity
+            android:name=".SettingsManager"
+            android:exported="false" />
+        <activity
+            android:name=".bookmanager"
+            android:exported="false" />
+        <activity
+            android:name=".homemanager"
+            android:exported="false" />
+        <activity
+            android:name=".Room2"
+            android:exported="false" />
+        <activity
+            android:name=".Room1"
+            android:exported="false" />
+        <activity
             android:name=".notis"
             android:exported="false" />
         <activity
