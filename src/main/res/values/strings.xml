@@ -56,4 +56,15 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="Settings">Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="new_password">New Password</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="home">Home</string>
+    <string name="userguide">User Guide</string>
+    <string name="booking_guide">Booking Guide</string>
+    <string name="cancellation_guide">Cancellation Guide</string>
 </resources>

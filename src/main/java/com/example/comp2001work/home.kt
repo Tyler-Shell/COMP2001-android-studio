@@ -15,6 +15,7 @@ class home : AppCompatActivity() {
     private lateinit var bookings_button: Button
     private lateinit var book_button: Button
     private lateinit var guide_button: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -27,22 +28,22 @@ class home : AppCompatActivity() {
         }
         guide_button = findViewById<Button>(R.id.guide)
         guide_button.setOnClickListener {
-            val intent = Intent(this, settings::class.java)
+            val intent = Intent(this, guide::class.java)
             startActivity(intent)
         }
         notis_button = findViewById<Button>(R.id.notis)
         notis_button.setOnClickListener {
-            val intent = Intent(this, settings::class.java)
+            val intent = Intent(this, notis::class.java)
             startActivity(intent)
         }
         bookings_button = findViewById<Button>(R.id.currentbookings)
         bookings_button.setOnClickListener {
-            val intent = Intent(this, settings::class.java)
+            val intent = Intent(this, currentbookings::class.java)
             startActivity(intent)
         }
         book_button = findViewById<Button>(R.id.book)
         book_button.setOnClickListener {
-            val intent = Intent(this, settings::class.java)
+            val intent = Intent(this, book::class.java)
             startActivity(intent)
         }
 
